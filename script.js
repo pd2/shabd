@@ -12,7 +12,7 @@ const tooltip = document.getElementById("myTooltip");
 
 let noun, nouns, startTime, index, is_playing;
 
-fetch('/declensions.txt')
+fetch('declensions.txt')
   .then(responses => responses.json())
   .then(resp => {
     console.log(resp);
