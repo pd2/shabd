@@ -2,10 +2,10 @@ const staticDev = "shabd"
 const service_worker_version = "v1.401"
 const assets = [
   "/",
-  "/index.html",
-  "/style.css",
+  "index.html",
+  "style.css",
   "declensions.txt",
-  "/script.js"
+  "script.js"
 ]
 
 self.addEventListener("install", installEvent => {
