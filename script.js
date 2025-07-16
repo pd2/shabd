@@ -447,7 +447,7 @@ document.addEventListener("keypress", function onPress(event) {
     }
 });
 
-let copyText, linkURL = "https://pd2.github.io/shabd/";
+let copyText, linkURL = window.location.href;
 
 function ShareIt() {
   
