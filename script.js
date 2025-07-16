@@ -447,7 +447,7 @@ document.addEventListener("keypress", function onPress(event) {
     }
 });
 
-let copyText, linkURL = "https://shabd.glitch.me";
+let copyText, linkURL = "https://pd2.github.io/shabd/";
 
 function ShareIt() {
   
