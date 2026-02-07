@@ -1,5 +1,5 @@
 const staticDev = "shabd"
-const service_worker_version = "v1.401"
+const service_worker_version = "v1.41"
 const assets = [
   "/",
   "index.html",
